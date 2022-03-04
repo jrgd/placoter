@@ -34766,14 +34766,28 @@ body #app .prose {
   margin: 60px auto 0 auto;
 }
 
-body #app .prose textarea.essaye_moi {
+body #app .prose .essaye_moi_container {
+  width: 80vw;
+  border: 1px solid #AAAAAA;
+  padding: 5vh 2px 5vh 2px;
+  background-color: #fafafa;
+  width: 85vw;
+  height: 78vh;
+}
+
+body #app .prose .essaye_moi_container textarea.essaye_moi {
+  border: 0px;
+  outline: 0;
   background-color: #fafafa;
   font-family: Placoter;
   font-weight: 400;
   font-size: 100px;
-  width: 80vw;
-  height: 45vw;
-  padding: 5vw;
+  line-height: 110px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+  padding: 5vh 5vw 5vh 5vw;
+  resize: none;
 }
 
 body #app .prose *.orange {
