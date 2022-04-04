@@ -34766,6 +34766,11 @@ body #app .prose {
   margin: 60px auto 0 auto;
 }
 
+body #app .prose * a {
+  color: #f26522;
+  font-weight: bold;
+}
+
 body #app .prose .essaye_moi_container {
   width: 80vw;
   border: 1px solid #AAAAAA;
